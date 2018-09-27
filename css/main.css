@@ -1,0 +1,387 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+body, nav, a {
+	transition: all 0.4s ease;
+}
+#home {
+	background-color: #000;
+}
+#home header {
+	font-family: 'Oswald', sans-serif;
+}
+
+.submit_entry{
+	font-family: 'Oswald', sans-serif;
+	background-color: #e30513;
+	padding:15px 30px;
+	font-size:20px;
+	display:inline-block;
+	margin-top:20px;
+	text-transform:uppercase;
+	border-radius:4px;
+	color:#fff;
+}
+
+.submit_entry:hover{
+	background-color: #d7020f;
+}
+
+#home header a {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+#home header a span {
+	color: #e30513;
+	font-size: 20px;
+	margin-right: 10px;
+}
+#home h1 {
+	font-family: 'Oswald', sans-serif;
+	line-height: 150%;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#home h1 span {
+	color: #e30513;
+}
+.even p, .even ol, .even ul {
+	font-family: 'Droid Serif', serif;
+	line-height: 150%;
+	display: block;
+	margin: auto;
+}
+.odd p, .odd ol, .odd ul {
+	color: #FFF;
+}
+.even h1 {
+	font-family: 'Oswald', sans-serif;
+	display: block;
+	margin: auto;
+	color: #e30513;
+	line-height: 150%;
+	text-transform: uppercase;
+}
+.even h1 span {
+	display: table;
+	height: 5px;
+	width: 100px;
+	background-color: #000;
+	margin-top: 10px;
+}
+.odd h1 {
+	color: #FFF;
+}
+.odd {
+	background-color: #e30513;
+}
+#about {
+	background-image: url(../img/about.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
+#who-can-enter {
+	background-image: url(../img/who-can-enter.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-attachment: fixed;
+}
+#what-are-the-judges-looking-for {
+	background-image: url(../img/what-are-the-judges-looking-for.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-attachment: fixed;
+}
+#judging {
+	background-image: url(../img/judging.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-attachment: fixed;
+}
+#awards-timeline {
+	background-image: url(../img/awards-timeline.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-attachment: fixed;
+}
+#eligibility {
+	background-image: url(../img/eligibility.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-attachment: fixed;
+}
+#ownership-and-disclosure {
+	background-image: url(../img/ownership-and-disclosure.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-attachment: fixed;
+}
+.even ol li {
+	margin-top: 20px;
+	list-style-type: decimal;
+	margin-left: 25px;
+}
+.even ul li {
+	margin-top: 20px;
+	list-style-type: disc;
+	margin-left: 25px;
+}
+.even ul li span {
+	color: #FFF;
+	display: inline-block;
+	background-color: #e30513;
+	padding: 0px 10px;
+}
+.even a {
+	color: #e30513;
+	font-weight: 700;
+}
+.odd a {
+	color: #000;
+	font-weight: 700;
+}
+.accordion {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+.accordion h3 {
+	font-family: 'Oswald', sans-serif;
+	padding: 10px 20px;
+	color: #FFF;
+	background-color: #e30513;
+	cursor: pointer;
+	border-bottom: 1px solid #d7020f;
+}
+.accordion h3 span {
+	margin-right: 10px;
+}
+.accordion div {
+	background-color: #ededed;
+	padding: 20px;
+	font-family: 'Droid Serif', serif;
+	line-height: 150%;
+}
+.border {
+	border-bottom: 1px solid #ededed;
+}
+header .submenu ul {
+	margin-top: 10px;
+	position: absolute;
+	display: none;
+}
+header .submenu ul li {
+	float: none !important;
+	background-color: #e30513;
+	margin: 0px !important;
+	border-bottom: 1px solid #d7020f;
+}
+header .submenu li a {
+	display: block;
+	padding: 10px 20px;
+}
+header .submenu li a:hover {
+	background-color: #d7020f;
+}
+header .fixednav {
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: #000;
+}
+header .fixednav ul:nth-child(1) {
+	width: 1200px;
+	margin: auto;
+}
+header .fixednav li {
+	margin: 0px !important;
+}
+header .fixednav li a {
+	box-sizing: border-box;
+	padding: 15px 35px;
+	display: block;
+}
+.slicknav_nav span {
+	margin-right: 10px;
+}
+.slicknav_nav{
+	font-family: 'Oswald', sans-serif !important;
+}
+ @media only screen and (max-width: 519px) {
+#logo {
+	width: 100px;
+	display: block;
+	margin: auto;
+	padding: 20px 0px;
+}
+#logo img {
+	width: 100%;
+}
+#home h1 {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.even {
+	padding: 40px 0px;
+}
+#home header {
+	width: 90%;
+	margin: auto;
+}
+.even h1 {
+	width: 90%;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.even p, .even ol, .even ul {
+	font-size: 15px;
+	width: 90%;
+}
+.accordion div {
+	font-size: 15px;
+}
+.accordion {
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+}
+}
+@media only screen and (min-width: 520px) and (max-width: 979px) {
+	#logo {
+	width: 100px;
+	display: block;
+	margin: auto;
+	padding: 20px 0px;
+}
+#logo img {
+	width: 100%;
+}
+#home h1 {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+.even {
+	padding: 40px 0px;
+}
+#home header {
+	width: 90%;
+	margin: auto;
+}
+.even h1 {
+	width: 90%;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.even p, .even ol, .even ul {
+	font-size: 18px;
+	width: 90%;
+}
+.accordion div {
+	font-size: 18px;
+}
+.accordion {
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+}
+}
+@media only screen and (min-width: 980px) and (max-width: 1229px) {
+	#logo {
+	width: 100px;
+	display: block;
+	margin: auto;
+	padding: 20px 0px;
+}
+#logo img {
+	width: 100%;
+}
+#home h1 {
+	font-size: 35px;
+	padding-bottom: 20px;
+}
+.even {
+	padding: 40px 0px;
+}
+#home header {
+	width: 90%;
+	margin: auto;
+}
+.even h1 {
+	width: 90%;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.even p, .even ol, .even ul {
+	font-size: 20px;
+	width: 90%;
+}
+.accordion div {
+	font-size: 20px;
+}
+.accordion {
+	width: 90%;
+	margin: auto;
+	margin-top: 30px;
+}
+}
+@media only screen and (min-width: 1230px) {
+#home header {
+	width: 1200px;
+	margin: auto;
+	padding: 20px 0px;
+	padding-bottom: 0px;
+}
+#home {
+	padding-bottom: 30px;
+}
+.even {
+	padding: 80px 0px;
+}
+#home header #logo {
+	float: left;
+}
+#home header nav {
+	float: right;
+}
+#home header nav li {
+	float: left;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+#home h1 {
+	font-size: 50px;
+}
+.even h1 {
+	width: 80%;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+.even p, .even ol, .even ul {
+	font-size: 25px;
+	width: 80%;
+}
+.accordion div {
+	font-size: 20px;
+}
+.accordion {
+	width: 80%;
+	margin: auto;
+	margin-top: 30px;
+}
+}
+.slicknav_menu {
+	display: none;
+}
+ @media screen and (max-width: 80em) {
+nav {
+	display: none;
+}
+.slicknav_menu {
+	display: block;
+}
+}
